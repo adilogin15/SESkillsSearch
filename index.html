@@ -25,11 +25,17 @@
 
             .container{
             background: url("./assets/Picture11.png") no-repeat center center fixed;
-            height: -webkit-fill-available;
+            width: -moz-available;
+            width: -webkit-fill-available;
+            width: fill-available;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;    
+            height: -webkit-fill-available;
+            width: -moz-available;
+            width: fill-available;
+            height: 979px;
             }
 
             /* Search Items*/
@@ -231,6 +237,11 @@
             margin: -12px 10px -12px;
             }
             @media (max-width:600px) {
+                .container{
+                width: -moz-available;
+                width: -webkit-fill-available;
+                width: fill-available;
+                }
                 .nav > .nav-btn {
                 display: inline-block;
                 position: absolute;
@@ -258,6 +269,7 @@
                 width: 100%;
                 background-color: #333;
                 max-height: fit-content;
+                max-height: -moz-fit-content;
                 height: 0px;
                 transition: all 0.3s ease-in;
                 overflow-y: hidden;
@@ -280,6 +292,7 @@
                 }
                 .nav > #nav-check:checked ~ .nav-links {
                 height: calc(100vh - 50px);
+                max-height: calc(24.5vh);
                 overflow-y: auto;
                 }
             }
@@ -303,8 +316,8 @@
                 </div>
     
                 <div class="nav-links">
-                    <a href="http://stackoverflow.com/users/4084003/" target="_blank"><img src="./assets/Picture12.png"><span>Renuka Goli</span></a>
-                    <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Contact Us</a>
+                    <a href="https://people.oracle.com/apex/f?p=8000:PERSON:15627186152171::NO:RP:PERSON:renuka.goli" target="_blank"><img src="./assets/Picture12.png"><span>Renuka Goli</span></a>
+                    <a href="https://apex.oracle.com/en/" target="_blank">Contact Us</a>
                 </div>
             </div>
             <div class="wrap">
